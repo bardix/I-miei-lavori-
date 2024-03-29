@@ -1,0 +1,200 @@
+/* Your styles here */
+body{margin: 0px;
+    text-align: center;}
+    
+    #primoblocco{background-color: black;
+                 padding: 30px;
+                 ;
+                 
+    }
+    .logo{width:125px;
+          margin-inline: 100px;
+    }
+    .secondoblocco{margin-top: 0px;;
+                   background-image: url(../images/banner.jpg);;
+                   text-align: center;
+                   }
+    
+                   
+    .contenitoretesto1{padding:30px;
+    }
+    
+    .contenitoretesto1 h1 {font-family: 'Montserrat';
+                          font-style: bold;
+                          font-size: 50px;
+                          color: #30d5d5;}
+    
+    
+    .frase{padding: 30px;}
+    
+    .partiamo{background-color: brown;
+              margin-left: 600px;
+              margin-right: 600px;
+              border-radius: 5px;
+              }
+    
+    .partiamo p{color: white;
+                padding: 25px;
+                margin-bottom: 20px;}
+    
+    .terzoblocco{margin-top: 0px;
+                    text-align: center;
+                    padding-bottom: 10px;}
+     
+                    
+     .contenitoretesto2{padding: 5%;
+                        margin-top: 10px;}
+     
+     .contenitoretesto2 h1 {font-family: 'Montserrat';
+                            font-style: bold;;
+                           font-size: 20px;
+                           text-align: center;
+                           color: #30d5d5;}
+     
+     
+     .frase2{padding: 20px;
+             text-align: center;}
+    
+    
+    .contenitoretesto3{padding: 5%;
+                      margin-top: 10px;}
+    
+    .contenitoretesto3 h1 {font-family: 'Montserrat';
+                        font-style: bold;
+                        font-size: 20px;
+                        text-align: center;
+                        color: #30d5d5;}
+    
+    
+    .frase3{padding: 20px;
+     text-align: center;}
+    
+     .terzoblocco{margin-top: 0px;
+        background-size: 390px;
+        text-align: center;
+        padding-bottom: 10px;}
+    
+        
+    .contenitoretesto2{padding: 5%;
+            margin-top: 10px;}
+    
+    .contenitoretesto2 h1 {font-family: 'Montserrat';
+                font-style: bold;
+               font-size: 20px;
+               text-align: center;
+               color: #30d5d5;}
+    
+    
+    .frase2{padding: 20px;
+    text-align: center;}
+    
+    
+    .contenitoretesto3{padding: 5%;
+          margin-top: 10px;}
+    
+    .contenitoretesto3 h1 {font-family: 'Montserrat';
+        font-style: bold;
+       font-size: 20px;
+       text-align: center;
+       color: #30d5d5;}
+    
+    
+    .frase3{padding: 20px;
+    text-align: center;}
+     
+    
+    #notebook{border-radius: 100%;
+        }
+    
+        .quartoblocco{margin-top: 0px;
+            background-size: 390px;
+            text-align: center;
+            padding-bottom: 10px;}
+        
+            
+        .contenitoretesto4{padding: 5%;
+                margin-top: 10px;}
+        
+        .contenitoretesto4 h1 {font-family: 'Montserrat';
+            font-style: bold;
+                   font-size: 20px;
+                   text-align: center;
+                   color: #30d5d5;}
+        
+        
+        .frase4{padding: 20px;
+        text-align: center;}
+        
+        
+        .contenitoretesto5{padding: 5%;
+              margin-top: 10px;}
+        
+        .contenitoretesto5 h1 {font-family: 'Montserrat';
+            font-style: bold;
+           font-size: 20px;
+           text-align: center;
+           color: #30d5d5;}
+        
+        
+        .frase5{padding: 20px;
+        text-align: center;}
+    
+    
+        .quintoblocco{background-color: red;
+                      padding: 30px;
+                      text-align: center;
+                    }
+        
+     .quintoblocco h1 {color: white;}
+    
+     #sestoblocco{margin: 20px;
+                  text-align: center;
+                  border: solid gray;}
+    
+    
+    #sestoblocco h1 {color: #30d5d5;
+                     padding: 10px;
+                    font-size: 20px;}
+    
+    #sestoblocco h2 {padding:20px;
+        margin-top: 0px;
+    }
+    
+    .flex {max-width: 100%}
+    
+    #settimoblocco{margin: 20px;
+        text-align: center;
+        border: solid gray;}
+    
+    
+    #settimoblocco h1 {color: #30d5d5;
+                       margin-top: 20px;
+                        font-size: 20px;}
+    
+                        #settimoblocco h2{padding: 10px;}
+    
+                        .flex1 {max-width: 100%}
+    
+    #ottavoblocco{margin: 20px;
+        text-align: center;
+        border: solid gray;}
+    
+    
+    #ottavoblocco h1 {color: #30d5d5;
+                      margin-top: 20px;
+                      font-size: 20px;}
+    
+    #ottavoblocco h2{padding: 10px;}
+    
+    .flex2 {max-width: 100%}
+    
+    .nonoblocco{background-color: rgb(24, 188, 221);
+                padding: 30px;
+                text-align: center;
+            
+      }
+    .contattaci{color: white;
+                font-size: 20px;}
+    
+    .contattaci1{color: white;
+                 font-size: 50px;}
