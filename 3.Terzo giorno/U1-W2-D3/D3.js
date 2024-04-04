@@ -229,7 +229,14 @@ switch (true) {
 /* ESERCIZIO 8
   Usa un for loop per cambiare il valore della proprietà "gender" di alcuni personaggi dal valore "n/a" a "robot" (Tip: puoi effettuare la riassegnazione del valore corrispondente o creare un nuovo array)
 */
-
+for (  let d = 0 ; d < starWarsCharacters.length ; d++){
+  
+  if(starWarsCharacters[i].gender === 'n/a'){
+    
+    starWarsCharacters[i].gender = 'robot';
+  }
+}
+console.log(starWarsCharacters);
 
 
 
