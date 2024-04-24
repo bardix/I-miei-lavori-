@@ -1,0 +1,51 @@
+@media (min-width: 576px) and (max-width : 768px) {
+    
+body{margin: 0;}
+
+header {background-color: rgb(254, 247, 226);}
+
+ul {
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+ ul li {
+    background-color: rgb(255, 223, 127);
+    margin: 26px 0px;
+    padding: 10px;
+    border-radius: 50px;
+}
+
+#logo{
+    width: 52px;
+
+}
+
+#lilogo {
+    width: 126px;
+    height: 45px;
+    margin: 0;
+    position: relative;
+    top: 14px;
+    font-size : 14vh;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  }
+  
