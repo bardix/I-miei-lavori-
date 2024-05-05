@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Profile Page</title>
+    <link rel="stylesheet" href="./Custom Edit Profile.css">
+    <body class="bg-primary">
+        <header>
+            <img src="./Netflix-assets/assets/netflix_logo.png" class="img-thumbnail bg-primary border border-0" width="100" alt="NetflixLogo">
+        </header>
+    <main>
+        <div class="row text-white justify-content-center">
+            <div class="col-12 ps-4 col-md-10 col-lg-7">
+                <h1 class="fs-1 mb-0">Edit Profile</h1>
+                <hr class="mt-1">
+                <div class="row">
+                    <div class="col-3">
+                        <img src="./Netflix-assets/assets/avatar.png" class="img-fluid">        
+                    </div>
+                    <div class="col-8">
+                        <div class="bg-secondary">
+                            <p class="d-inline-flex mb-0 ps-2 pt-1 pb-1">Strive Student</p>
+                        </div>
+                        <p class="mt-3 mb-0 drop-downtoggle">Language</p>
+                        <div class="dropdown">
+                            <button class="btn btn-secondary dropdown-toggle bg-primary text-white rounded-0 border pt-1 pb-1 mt-1" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                              English
+                            </button>
+                            <ul class="dropdown-menu">
+                              <li><a class="dropdown-item" href="#">Italian</a></li>
+                            </ul>
+                          </div>
+                        <hr>
+                        <p class="fs-5">Maturity Settings:</p>
+                        <div id="allMaturityRatings">
+                            <p class="mb-0 ps-2 pt-1 pb-1">ALL MATURITY RATINGS</p>
+                        </div>
+                        <p class="mt-3">Show titles of all maturity ratings for this profile.</p>
+                        <button type="button" class="btn btn-primary border rounded-0 pt-1 pb-1 px-4">EDIT</button>
+                        <hr>
+                        <p class="fs-5">Autoplay controls</p>
+                        <div class="form-check">
+                            <input class="form-check-input" id="custom-checkbox" type="checkbox" value="" id="flexCheckDefault1">
+                            <label class="form-check-label mx-2" for="flexCheckDefault1">Autoplay next episode in a series on all devices.</label>
+                          </div>
+                          <div class="form-check">
+                            <input class="form-check-input" id="custom-checkbox" type="checkbox" value="" id="flexCheckDefault2">
+                            <label class="form-check-label mx-2" for="flexCheckDefault2">Autoplay previews while browsing on all devices.</label>
+                          </div>  
+                <hr>
+                <div class="row">
+                    <div class="col">
+                        <button type="button" class="btn btn-primary border rounded-0 pt-1 pb-1 px-4">SAVE</button>
+                    </div>
+                    <div class="col">
+                        <button type="button" class="btn btn-primary border rounded-0 pt-1 pb-1 px-4">CANCEL</button>
+                    </div>
+                    <div class="col">
+                        <button type="button" class="btn btn-primary border rounded-0 pt-1 pb-1 px-4">DELETE PROFILE</button>
+                    </div>
+                </div>
+                    
+                </div>
+
+
+            </div>
+        </div>
+    </main>
+    <footer></footer>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+  </body>
+</html>

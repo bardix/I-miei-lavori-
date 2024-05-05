@@ -1,0 +1,17 @@
+// qui dentro applicheremo le personalizzazioni su bootstrap 
+// importiamo i sorgenti di bootstrap
+//dopodiche possiamo cambiare le cose
+
+
+@import 'scss/functions'; // l'import di functions serve per l'import di variables 
+@import 'scss/variables'; // dopo aver importato le variabili possiamo modificare i colori
+
+$new-primary: #000;
+
+$new-theme-colors: (
+  "primary": $new-primary,
+);
+
+$theme-colors: map-merge($theme-colors, $new-theme-colors);
+
+@import 'scss/bootstrap.scss';
